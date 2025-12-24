@@ -1,21 +1,22 @@
-# React + TypeScript + Vite
+# Portfolio — yves dev 237
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a starter portfolio built with React + Vite and a modern violet theme. It includes:
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+- Responsive navbar with routes: Home, Services, About, Contact
+- Lazy-loaded pages with React.lazy and Suspense
+- Parallax hero, subtle animations, and lazy-loaded images
+- Footer with GitHub, Facebook, Email and WhatsApp links
 
-## Deploy Your Own
+Local setup
 
-Deploy your own Vite project with Vercel.
+1. Install dependencies:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+```bash
+npm install
+```
 
-_Live Example: https://vite-react-example.vercel.app_
+2. Run the dev server:
 
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
+```bash
+npm run dev
 ```
